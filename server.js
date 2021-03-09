@@ -17,11 +17,13 @@ function promptUser() {
         break;
 
         case "view all roles":
+        viewRoles();
         break;
 
         case "view all employees":
         viewEmployees()
         break;
+        
         case "Add a department":
         confirmDepartment()
         break;
@@ -40,6 +42,7 @@ function promptUser() {
 
         case "exit":
         process.exit()
+        
         break;
         }
     })
